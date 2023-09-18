@@ -58,11 +58,58 @@ extern void ARPlaneController_Update_m6EDEE3E43EE84F846D9C9E532668ABE766D3833B (
 extern void ARPlaneController_OnPlaceButtonClicked_m3B66D52D224C261B93C804EC768539C721C68DEF (void);
 // 0x00000017 System.Void ARPlaneController::OnMoveButtonClicked()
 extern void ARPlaneController_OnMoveButtonClicked_mD1FCB1CB177C1A78E5B5BB5DCA5FEE0C282D8704 (void);
-// 0x00000018 System.Void ARPlaneController::OnRotationSliderChanged(System.Single)
+// 0x00000018 System.Void ARPlaneController::OnScaleButtonClicked()
+extern void ARPlaneController_OnScaleButtonClicked_m7AFB0D302FEADA7B811B4B77B7C47C354074EB86 (void);
+// 0x00000019 System.Void ARPlaneController::OnRotateButtonClicked()
+extern void ARPlaneController_OnRotateButtonClicked_mC4101BA68B2F365EA0DEF23DFB7F8E9A73B03C87 (void);
+// 0x0000001A System.Void ARPlaneController::OnRotationSliderChanged(System.Single)
 extern void ARPlaneController_OnRotationSliderChanged_m7C3B5F17E7F9376331243CFC5E75918BD329942B (void);
-// 0x00000019 System.Void ARPlaneController::.ctor()
+// 0x0000001B System.Void ARPlaneController::OnScaleSliderChanged(System.Single)
+extern void ARPlaneController_OnScaleSliderChanged_mAA273141784BA71D02525CE927416A02D3E130DD (void);
+// 0x0000001C System.Void ARPlaneController::.ctor()
 extern void ARPlaneController__ctor_m0573BE0E4ACE42EB60FBC208F8A36EED966EF11E (void);
-static Il2CppMethodPointer s_methodPointers[25] = 
+// 0x0000001D System.Void MenuManager::OnPlayButtonClicked()
+extern void MenuManager_OnPlayButtonClicked_m752A16C1DF6BFE1877F6CA4903E7732671D93BFE (void);
+// 0x0000001E System.Void MenuManager::.ctor()
+extern void MenuManager__ctor_m07A22DFDD90E3164393F8BDE06DAEF5AFA786CF2 (void);
+// 0x0000001F System.Void SceneLoader::LoadScene(System.String)
+extern void SceneLoader_LoadScene_mFE87E2AA20B80CBECD7C02C3A6EF68661736A3F1 (void);
+// 0x00000020 System.Collections.IEnumerator SceneLoader::InitializeSceneLoading()
+extern void SceneLoader_InitializeSceneLoading_m9FC9DB7B17413B2F03A73648E09D0589075711C5 (void);
+// 0x00000021 System.Collections.IEnumerator SceneLoader::LoadActualScene()
+extern void SceneLoader_LoadActualScene_m4401DFF6DFC1DA125A73D6AC45BEF0BF113C94B9 (void);
+// 0x00000022 System.Void SceneLoader::.ctor()
+extern void SceneLoader__ctor_m2248766DF38AF07562AD31501C7275B8DF1B7D29 (void);
+// 0x00000023 System.Void SceneLoader/<InitializeSceneLoading>d__2::.ctor(System.Int32)
+extern void U3CInitializeSceneLoadingU3Ed__2__ctor_m8F6818E1B2056A5C7A8751B0331394A46F1DF904 (void);
+// 0x00000024 System.Void SceneLoader/<InitializeSceneLoading>d__2::System.IDisposable.Dispose()
+extern void U3CInitializeSceneLoadingU3Ed__2_System_IDisposable_Dispose_m491B17140550502A55ECCFD7D2189CFC49510AE5 (void);
+// 0x00000025 System.Boolean SceneLoader/<InitializeSceneLoading>d__2::MoveNext()
+extern void U3CInitializeSceneLoadingU3Ed__2_MoveNext_m38CD0C26A5B2933027AC58B1C94AE665FCE1DF53 (void);
+// 0x00000026 System.Object SceneLoader/<InitializeSceneLoading>d__2::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CInitializeSceneLoadingU3Ed__2_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA47BEDF8528FE19D062A0DFAC9A59F0E8E9BFDE6 (void);
+// 0x00000027 System.Void SceneLoader/<InitializeSceneLoading>d__2::System.Collections.IEnumerator.Reset()
+extern void U3CInitializeSceneLoadingU3Ed__2_System_Collections_IEnumerator_Reset_m4D158235403D5164DDF1F47029939E4C6AFA1420 (void);
+// 0x00000028 System.Object SceneLoader/<InitializeSceneLoading>d__2::System.Collections.IEnumerator.get_Current()
+extern void U3CInitializeSceneLoadingU3Ed__2_System_Collections_IEnumerator_get_Current_m7FB1A4BAE553D053715A8DCA5C89ACA2D4468351 (void);
+// 0x00000029 System.Void SceneLoader/<LoadActualScene>d__3::.ctor(System.Int32)
+extern void U3CLoadActualSceneU3Ed__3__ctor_mED877433C0AA34EFD905321A8C6A5CBAAB84F523 (void);
+// 0x0000002A System.Void SceneLoader/<LoadActualScene>d__3::System.IDisposable.Dispose()
+extern void U3CLoadActualSceneU3Ed__3_System_IDisposable_Dispose_m0E24CE1C2B12DE28797892B753339B1CFFC2F3AE (void);
+// 0x0000002B System.Boolean SceneLoader/<LoadActualScene>d__3::MoveNext()
+extern void U3CLoadActualSceneU3Ed__3_MoveNext_mA6F016D7CB471D119BA775AEA811FB32908C0216 (void);
+// 0x0000002C System.Object SceneLoader/<LoadActualScene>d__3::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CLoadActualSceneU3Ed__3_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m39D0DAB2BD7F83824EDADE88175DC8FD6E0A30C8 (void);
+// 0x0000002D System.Void SceneLoader/<LoadActualScene>d__3::System.Collections.IEnumerator.Reset()
+extern void U3CLoadActualSceneU3Ed__3_System_Collections_IEnumerator_Reset_m0FEFCF34A7F7474883B0700869FAD3350CF4A4F8 (void);
+// 0x0000002E System.Object SceneLoader/<LoadActualScene>d__3::System.Collections.IEnumerator.get_Current()
+extern void U3CLoadActualSceneU3Ed__3_System_Collections_IEnumerator_get_Current_m11EA01029F3420136F8EC0A5C740684FCD49BB8E (void);
+// 0x0000002F T Singleton`1::get_Instance()
+// 0x00000030 System.Void Singleton`1::OnApplicationQuit()
+// 0x00000031 System.Void Singleton`1::OnDestroy()
+// 0x00000032 System.Void Singleton`1::.ctor()
+// 0x00000033 System.Void Singleton`1::.cctor()
+static Il2CppMethodPointer s_methodPointers[51] = 
 {
 	AnchorCreator_get_AnchorPrefab_mBBAF7805E9D9F8D79408EE642D153BC76306B25A,
 	AnchorCreator_set_AnchorPrefab_m53CC9CC3022C713826B44536B48B462C8A1FACFF,
@@ -87,52 +134,119 @@ static Il2CppMethodPointer s_methodPointers[25] =
 	ARPlaneController_Update_m6EDEE3E43EE84F846D9C9E532668ABE766D3833B,
 	ARPlaneController_OnPlaceButtonClicked_m3B66D52D224C261B93C804EC768539C721C68DEF,
 	ARPlaneController_OnMoveButtonClicked_mD1FCB1CB177C1A78E5B5BB5DCA5FEE0C282D8704,
+	ARPlaneController_OnScaleButtonClicked_m7AFB0D302FEADA7B811B4B77B7C47C354074EB86,
+	ARPlaneController_OnRotateButtonClicked_mC4101BA68B2F365EA0DEF23DFB7F8E9A73B03C87,
 	ARPlaneController_OnRotationSliderChanged_m7C3B5F17E7F9376331243CFC5E75918BD329942B,
+	ARPlaneController_OnScaleSliderChanged_mAA273141784BA71D02525CE927416A02D3E130DD,
 	ARPlaneController__ctor_m0573BE0E4ACE42EB60FBC208F8A36EED966EF11E,
+	MenuManager_OnPlayButtonClicked_m752A16C1DF6BFE1877F6CA4903E7732671D93BFE,
+	MenuManager__ctor_m07A22DFDD90E3164393F8BDE06DAEF5AFA786CF2,
+	SceneLoader_LoadScene_mFE87E2AA20B80CBECD7C02C3A6EF68661736A3F1,
+	SceneLoader_InitializeSceneLoading_m9FC9DB7B17413B2F03A73648E09D0589075711C5,
+	SceneLoader_LoadActualScene_m4401DFF6DFC1DA125A73D6AC45BEF0BF113C94B9,
+	SceneLoader__ctor_m2248766DF38AF07562AD31501C7275B8DF1B7D29,
+	U3CInitializeSceneLoadingU3Ed__2__ctor_m8F6818E1B2056A5C7A8751B0331394A46F1DF904,
+	U3CInitializeSceneLoadingU3Ed__2_System_IDisposable_Dispose_m491B17140550502A55ECCFD7D2189CFC49510AE5,
+	U3CInitializeSceneLoadingU3Ed__2_MoveNext_m38CD0C26A5B2933027AC58B1C94AE665FCE1DF53,
+	U3CInitializeSceneLoadingU3Ed__2_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA47BEDF8528FE19D062A0DFAC9A59F0E8E9BFDE6,
+	U3CInitializeSceneLoadingU3Ed__2_System_Collections_IEnumerator_Reset_m4D158235403D5164DDF1F47029939E4C6AFA1420,
+	U3CInitializeSceneLoadingU3Ed__2_System_Collections_IEnumerator_get_Current_m7FB1A4BAE553D053715A8DCA5C89ACA2D4468351,
+	U3CLoadActualSceneU3Ed__3__ctor_mED877433C0AA34EFD905321A8C6A5CBAAB84F523,
+	U3CLoadActualSceneU3Ed__3_System_IDisposable_Dispose_m0E24CE1C2B12DE28797892B753339B1CFFC2F3AE,
+	U3CLoadActualSceneU3Ed__3_MoveNext_mA6F016D7CB471D119BA775AEA811FB32908C0216,
+	U3CLoadActualSceneU3Ed__3_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m39D0DAB2BD7F83824EDADE88175DC8FD6E0A30C8,
+	U3CLoadActualSceneU3Ed__3_System_Collections_IEnumerator_Reset_m0FEFCF34A7F7474883B0700869FAD3350CF4A4F8,
+	U3CLoadActualSceneU3Ed__3_System_Collections_IEnumerator_get_Current_m11EA01029F3420136F8EC0A5C740684FCD49BB8E,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
 };
-static const int32_t s_InvokerIndices[25] = 
+static const int32_t s_InvokerIndices[51] = 
 {
-	5111,
-	4147,
-	5206,
-	5206,
-	5206,
-	5206,
-	8270,
-	5152,
-	4180,
-	5206,
-	5206,
-	5206,
-	4042,
-	4147,
-	5206,
-	8270,
-	5206,
-	5206,
-	5206,
-	5206,
-	5206,
-	5206,
-	5206,
-	4180,
-	5206,
+	5342,
+	4335,
+	5448,
+	5448,
+	5448,
+	5448,
+	8553,
+	5384,
+	4369,
+	5448,
+	5448,
+	5448,
+	4221,
+	4335,
+	5448,
+	8553,
+	5448,
+	5448,
+	5448,
+	5448,
+	5448,
+	5448,
+	5448,
+	5448,
+	5448,
+	4369,
+	4369,
+	5448,
+	5448,
+	5448,
+	4335,
+	5342,
+	5342,
+	5448,
+	4309,
+	5448,
+	5253,
+	5342,
+	5448,
+	5342,
+	4309,
+	5448,
+	5253,
+	5342,
+	5448,
+	5342,
+	0,
+	0,
+	0,
+	0,
+	0,
+};
+static const Il2CppTokenRangePair s_rgctxIndices[1] = 
+{
+	{ 0x0200000A, { 0, 4 } },
+};
+extern const uint32_t g_rgctx_Singleton_1_tEB10BC7581192E8DC4004CC6A80E88A3E42C3444;
+extern const uint32_t g_rgctx_T_t2337B8A22C295A41D129CA0B4B104663AAC37B94;
+extern const uint32_t g_rgctx_T_t2337B8A22C295A41D129CA0B4B104663AAC37B94;
+extern const uint32_t g_rgctx_GameObject_AddComponent_TisT_t2337B8A22C295A41D129CA0B4B104663AAC37B94_m0CD12805FA8F016127C31F69C4C48F3599754DD7;
+static const Il2CppRGCTXDefinition s_rgctxValues[4] = 
+{
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Singleton_1_tEB10BC7581192E8DC4004CC6A80E88A3E42C3444 },
+	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_T_t2337B8A22C295A41D129CA0B4B104663AAC37B94 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t2337B8A22C295A41D129CA0B4B104663AAC37B94 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_GameObject_AddComponent_TisT_t2337B8A22C295A41D129CA0B4B104663AAC37B94_m0CD12805FA8F016127C31F69C4C48F3599754DD7 },
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	25,
+	51,
 	s_methodPointers,
 	0,
 	NULL,
 	s_InvokerIndices,
 	0,
 	NULL,
-	0,
-	NULL,
-	0,
-	NULL,
+	1,
+	s_rgctxIndices,
+	4,
+	s_rgctxValues,
 	NULL,
 	NULL, // module initializer,
 	NULL,
