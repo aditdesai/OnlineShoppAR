@@ -5,10 +5,10 @@ public class UIManager : MonoBehaviour
 {
     ARPlaneManager m_ARPlaneManager;
     ARPlacementManager m_ARPlacementManager;
+    GameObject itemGameObject;
 
     public GameObject placeButton;
     public GameObject moveButton;
-    public Transform chairGameObject;
     public GameObject m_ARSessionOrigin;
     public GameObject scaleSlider;
     public GameObject rotationSlider;
@@ -26,6 +26,8 @@ public class UIManager : MonoBehaviour
 
         scaleSlider.SetActive(false);
         rotationSlider.SetActive(false);
+
+        itemGameObject = GameObject.FindWithTag("Item");
     }
 
     
@@ -101,7 +103,10 @@ public class UIManager : MonoBehaviour
 
     public void OnBackButtonClicked()
     {
-        SceneLoader.Instance.LoadScene("Main Menu");
+        Debug.Log(itemGameObject == null);
+        Destroy(itemGameObject);
+        Debug.Log(itemGameObject == null);
+        SceneLoader.Instance.LoadScene("Marketplace");
     }
 
     #endregion

@@ -9,12 +9,14 @@ public class ARPlacementManager : MonoBehaviour
     ARRaycastManager m_ARRaycastManager;
     List<ARRaycastHit> hits = new List<ARRaycastHit>();
 
-    public GameObject chairGameObject;
+    GameObject itemGameObject;
 
     #region UNITY Callback Methods
     private void Start()
     {
         m_ARRaycastManager = GetComponent<ARRaycastManager>();
+
+        itemGameObject = GameObject.FindWithTag("Item");
     }
 
     private void Update()
@@ -23,7 +25,7 @@ public class ARPlacementManager : MonoBehaviour
 
         if (m_ARRaycastManager.Raycast(ray, hits, TrackableType.PlaneWithinPolygon))
         {
-            chairGameObject.transform.position = hits[0].pose.position;
+            itemGameObject.transform.position = hits[0].pose.position;
         }
     }
     #endregion

@@ -6,6 +6,6 @@ public class MenuManager : MonoBehaviour
 {
     public void OnPlayButtonClicked()
     {
-        SceneLoader.Instance.LoadScene("AR Interface");
+        SceneLoader.Instance.LoadScene("Marketplace");
     }
 }
